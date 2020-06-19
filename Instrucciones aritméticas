@@ -1,0 +1,36 @@
+Ejercicio 1
+x=z+2*8-(a/b)-x
+
+t0=2*8
+t1=a/b
+t2=z+t0
+t3=t2-t1
+t4=t3-x
+x=t4
+
+Ejercicio 2
+int x(6); ... x[j+j*2]=a*3/6;
+
+t0=a*3
+t1=t0/6
+t2=j*2
+t3=j+t2
+t4=t3*4
+x[t4]=t1
+
+Ejercicio 3
+int x[6].y[5][3][2]; ... x[i+2][j-1][k^3];
+
+t0=i+2
+t1=t0*24
+t2=j-1
+t3=t2*8
+t4=t1+t3
+t5=k*3
+t6=t5*4
+t7=t6+t4
+t8=y[t7]
+t9=j*2
+t10=j+t9
+t11=t10*4
+x[t11]=t8
